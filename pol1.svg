@@ -1,0 +1,13 @@
+<svg width="500" height="240" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <g class="layer">
+  <title>Layer 1</title>
+  <path d="m231.04,108l34.96,9l-2.45,109l-43.55,-17l0,-81l11.04,-20z" fill="#042b17" id="svg_3" stroke="#000000"/>
+  <path d="m267,118l65,55.01l-2,53.99l-68,-1.02l5,-107.98z" fill="#c5e9da" id="svg_4" stroke="#000000"/>
+  <line fill="none" id="svg_11" stroke="#36b37e" stroke-width="2" x1="311" x2="327" y1="226" y2="186.5"/>
+  <line fill="none" id="svg_12" stroke="#f9eded" stroke-width="3" transform="matrix(1 0 0 1 0 0)" x1="220.5" x2="236.5" y1="151.5" y2="155"/>
+  <line fill="none" id="svg_13" stroke="#f9f7f7" stroke-width="3" x1="236" x2="258.5" y1="155" y2="170"/>
+  <rect fill="#f2f9f6" height="11.5" id="svg_14" stroke="#36b37e" transform="matrix(1 0 0 1 0 0) rotate(60 263.75 171.25)" width="11.5" x="258" y="165.5"/>
+  <line fill="none" id="svg_15" stroke="#36b37e" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" x1="283" x2="283" y1="185" y2="224"/>
+  <path d="m267.5,226l13.5,-22.5l0,22l-13.5,0.5z" fill="#36b37e" id="svg_16" stroke="#36b37e" stroke-linecap="round" stroke-linejoin="round"/>
+ </g>
+</svg>

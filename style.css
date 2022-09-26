@@ -27,6 +27,7 @@ body {
     align-content: center;
     align-items: center;
     height: 100vh;
+    z-index: 1;
   }
 
   /* nav-bar */
@@ -43,8 +44,6 @@ body {
     line-height: 28px;
     width: 150px;
     height: 50px;
-
-    /* padding-right: 220px; */
     padding-top: 40px;
     padding-left: 30px;
     color: var(--green-cayn);
@@ -63,6 +62,12 @@ body {
     height: 2px;
     width: 50px;
     background: black;
+  }
+
+  /* background polygon */
+  #pol1 {
+    padding-left: 0;
+    border: 2px solid red;
   }
 
   /* intro-section */
@@ -108,7 +113,7 @@ body {
   #scroll-img {
     width: 40px;
     height: 40px;
-    left: calc(50% - 40px/2 + 0.5px);
+    left: calc(50% - 40px / 2 + 0.5px);
     bottom: 4px;
     position: absolute;
     border: 1px solid #dfe1e6;
