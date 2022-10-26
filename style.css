@@ -31,10 +31,12 @@ body {
   .container {
     display: flex;
     flex-direction: column;
+    flex-wrap: nowrap;
     align-content: center;
     align-items: center;
-    height: 100vh;
-    width: 480px;
+    justify-content: center;
+    height: 667px;
+    width: 375px;
     z-index: 1;
   }
 
@@ -42,7 +44,8 @@ body {
   .nav-bar {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
     width: 480px;
   }
 
