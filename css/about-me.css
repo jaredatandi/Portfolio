@@ -1,76 +1,70 @@
 
 /* Mobile */
 @media screen and (max-width: 480px) {
-
   /* scroll button */
 
   .about-me {
-	  height: 3283px;
-	  width: 379px;
-	  display: flex;
-	  flex-direction: column;
-	  align-items: center;
-	  justify-content: space-between;
-	  gap: 10px;
+    height: 3283px;
+    width: 379px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
   }
 
   .about-me-title {
-	  display: flex;
-	  flex-direction: column;
-	  align-items: center;
-	  text-align: center;
-	  height: 97px;
-	  width: 327px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 97px;
+    width: 327px;
   }
 
   .about-me-text {
-	  font-size: 40px;
-	  font-style: normal;
-	  font-weight: 700px;
-	  line-height: 52px;
-	  color: #172B4D;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700px;
+    line-height: 52px;
+    color: #172b4d;
   }
 
   .card {
-
-	  display: flex;
-	  flex-direction: column;
-	  height: 474px;
-	  width: 327px;
-	  border-radius: 8px;
-	  text-align: center;
-	  border: 1px solid #D0D9D4;
-
+    display: flex;
+    flex-direction: column;
+    height: 474px;
+    width: 327px;
+    border-radius: 8px;
+    text-align: center;
+    border: 1px solid #d0d9d4;
   }
 
   .abt-me-img img {
-	  width: 100%;
-	  height: 252px;
+    width: 100%;
+    height: 252px;
   }
-  
+
   .text {
-	  display: flex;
-	  flex-direction: column;
-	  justify-content: space-between;
-	  gap: 10px;
-	  align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
   }
 
-.framework {
-display: grid;
-grid-template-columns: 35% 15% 30% 15%;
-grid-template-rows: 1fr;
-grid-column-gap: 2px;
-border-radius: 4px;
-
+  .framework {
+    display: grid;
+    grid-template-columns: 35% 15% 30% 15%;
+    grid-template-rows: 1fr;
+    grid-column-gap: 2px;
+    border-radius: 4px;
   }
 
   .see-prj {
-	  width: 122px;
-	  padding: 12px;
-	  background-color: #36B37F;
-	  border-radius: 4px;
-
+    width: 122px;
+    padding: 12px;
+    background-color: #36b37f;
+    border-radius: 4px;
   }
-
 }
