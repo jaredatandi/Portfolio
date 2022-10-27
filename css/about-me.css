@@ -11,6 +11,7 @@
 	  flex-direction: column;
 	  align-items: center;
 	  justify-content: space-between;
+	  gap: 10px;
   }
 
   .about-me-title {
@@ -29,4 +30,47 @@
 	  line-height: 52px;
 	  color: #172B4D;
   }
+
+  .card {
+
+	  display: flex;
+	  flex-direction: column;
+	  height: 474px;
+	  width: 327px;
+	  border-radius: 8px;
+	  text-align: center;
+	  border: 1px solid #D0D9D4;
+
+  }
+
+  .abt-me-img img {
+	  width: 100%;
+	  height: 252px;
+  }
+  
+  .text {
+	  display: flex;
+	  flex-direction: column;
+	  justify-content: space-between;
+	  gap: 10px;
+	  align-items: center;
+  }
+
+.framework {
+display: grid;
+grid-template-columns: 35% 15% 30% 15%;
+grid-template-rows: 1fr;
+grid-column-gap: 2px;
+border-radius: 4px;
+
+  }
+
+  .see-prj {
+	  width: 122px;
+	  padding: 12px;
+	  background-color: #36B37F;
+	  border-radius: 4px;
+
+  }
+
 }
