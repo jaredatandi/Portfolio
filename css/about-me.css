@@ -1,0 +1,32 @@
+
+/* Mobile */
+@media screen and (max-width: 480px) {
+
+  /* scroll button */
+
+  .about-me {
+	  height: 3283px;
+	  width: 379px;
+	  display: flex;
+	  flex-direction: column;
+	  align-items: center;
+	  justify-content: space-between;
+  }
+
+  .about-me-title {
+	  display: flex;
+	  flex-direction: column;
+	  align-items: center;
+	  text-align: center;
+	  height: 97px;
+	  width: 327px;
+  }
+
+  .about-me-text {
+	  font-size: 40px;
+	  font-style: normal;
+	  font-weight: 700px;
+	  line-height: 52px;
+	  color: #172B4D;
+  }
+}
