@@ -49,16 +49,17 @@ body {
     line-height: 28px;
     width: 90px;
     height: 28px;
-    padding-left: 12px; 
+    padding-left: 12px;
     color: var(--green-cayn);
   }
 
   .ham-menu {
-	  display: flex;
-	  align-items: flex-start;
-	  padding: 8px;
-	  padding-right: 24px;
+    display: flex;
+    align-items: flex-start;
+    padding: 8px;
+    padding-right: 24px;
   }
+
   /* intro-section */
   .hero {
     background-image: url(../images/header-illsutration-mobile.svg);
