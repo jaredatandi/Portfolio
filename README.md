@@ -1,19 +1,47 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+# Portfolio 
 
-# Project Name
-Portfolio project to showcase my skills
+> A repo for my Portfolio 
 
 ## Built With
-- HTML
+
+- HTML5
 - CSS
 
+## Live Demo (if available)
+
+> Coming soon
+
 ## Getting Started
-Follow the link on my repo description to see my portfolio
+
+To get a local copy up and running follow these simple example steps.
+```
+git clone [This repo]
+cd Portfolio
+open index.html
+```
+
+### Prerequisites
+> No prerequisites required
+
+### Setup
+> No local set up yet
+
+### Install
+> No local installation required yet
+
+### Run tests
+> `npx hint .`
+
+### Deployment
+> Coming soon
+
 ## Authors
 
-👤 **Jared**
+👤 **Jared Atandi**
 
-- GitHub: [@githubhandle](https://github.com/jaredatandi)
+- GitHub: [@github](https://github.com/jaredatandi)
+- Twitter: [@twitter](https://twitter.com/@one_good_man_)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/engineerjaredatandi)
 
 ## 🤝 Contributing
 
@@ -24,4 +52,12 @@ Feel free to check the [issues page](../../issues/).
 ## Show your support
 
 Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Microverse Organization
+
+## 📝 License
+
+This project is [MIT](./LICENSE) licensed.
 
