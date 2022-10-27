@@ -41,7 +41,7 @@
     margin-bottom: 15px;
   }
 
-  .abt-me-img>img {
+  .abt-me-img > img {
     width: 100%;
     height: 252px;
     border-radius: 8px 8px 0 0;
@@ -69,14 +69,13 @@
   }
 
   button {
-	  background-color: #EBF0EE;
-	  border: none;
-	  text-align: center;
-          text-decoration: none;
-	  color: #3A4A42;
-	  border-radius: 4px;
+    background-color: #ebf0ee;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    color: #3a4a42;
+    border-radius: 4px;
   }
-
 
   .see-prj > button {
     width: 122px;
@@ -86,12 +85,9 @@
     border: none;
     text-align: center;
     text-decoration: none;
-    color: #FFFFFF;
+    color: #fff;
     line-height: 24px;
     font-size: 17px;
     font-weight: 500px;
-  }
-
-  .text {
   }
 }
