@@ -8,7 +8,7 @@
   --white: #fff;
   --blue: #1e90ff;
   --cayn-blue: #172b4d;
-  --green: #068f2f;
+  --green: #36b37e;
   --green-cayn: #28352f;
   --Tealish-blue: #505f79;
 }
@@ -16,13 +16,6 @@
 body {
   background-color: var(--white);
   font-family: 'Inter', sans-serif;
-}
-
-.container {
-  background-image: url(images/pol1.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-size: 100% 90%;
 }
 
 /* Mobile */
@@ -75,6 +68,12 @@ body {
   }
 
   /* intro-section */
+  .hero {
+    background-image: url(images/header-illsutration-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 110% 100%;
+  }
 
   .intro {
     width: 100%;
@@ -120,6 +119,8 @@ body {
   .social {
     display: flex;
     padding-bottom: 40px;
+    justify-content: center;
+    flex-direction: row;
   }
 
   #social-icons {
@@ -127,12 +128,15 @@ body {
     display: flex;
     justify-content: space-between;
     gap: 30px;
-    padding-left: 0;
+    padding: 0;
+    margin-bottom: 40px;
+    height: 20px;
+    width: 170.17px;
   }
 
   .fa {
-    width: 20px;
-    height: 30px;
+    width: 16px;
+    height: 16px;
   }
 
   /* scroll button */
