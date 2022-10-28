@@ -1,7 +1,10 @@
 /* global reset */
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
+
 
 /* color variables */
 :root {
@@ -61,11 +64,13 @@ body {
   }
 
   /* intro-section */
-  .hero {
+  .background {
     background-image: url(../images/header-illsutration-mobile.svg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-size: 110% 100%;
+    width: 100%;
+    height: auto;
+
   }
 
   .intro {
@@ -113,9 +118,10 @@ body {
   /* social media */
 
   .social {
-    width: 170px;
-    padding-left: 52px;
-    margin-top: 50px;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
   }
 
   #social-icons {
@@ -132,14 +138,18 @@ body {
     width: 16px;
     height: 16px;
   }
+  .scroll-down {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+
 
   /* scroll button */
   #scroll-img {
     width: 40px;
     height: 40px;
-    left: calc(50% - 40px / 2 + 0.5px);
     bottom: 1px;
-    position: absolute;
     border: 1px solid #dfe1e6;
     border-radius: 32px;
   }
