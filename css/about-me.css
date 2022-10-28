@@ -72,6 +72,12 @@
     padding-left: 15px;
   }
 
+  .resume-btn button:hover {
+	  background-color: #1E488F;
+	  box-shadow: 0px 8px 16px rgba(30, 72, 143, 0.24);
+	  border-radius: 4px;
+  }
+
   .btn-resume a {
     text-decoration: none;
   }
