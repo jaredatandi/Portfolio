@@ -75,6 +75,7 @@
     padding: 8px;
   }
 
+
   .see-prj > button {
     width: 122px;
     padding: 12px;
@@ -87,6 +88,12 @@
     line-height: 24px;
     font-size: 17px;
     font-weight: 500px;
+  }
+  
+  button:hover {
+	  background-color: #1E488F;
+	  box-shadow: 0px 8px 16px rgba(30, 72, 143, 0.24);
+	  border-radius: 4px;
   }
 
   .languages li {
