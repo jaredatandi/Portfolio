@@ -5,7 +5,6 @@
   padding: 0;
 }
 
-
 /* color variables */
 :root {
   --white: #fff;
@@ -70,7 +69,6 @@ body {
     background-size: cover;
     width: 100%;
     height: auto;
-
   }
 
   .intro {
@@ -138,12 +136,12 @@ body {
     width: 16px;
     height: 16px;
   }
+
   .scroll-down {
     display: flex;
     justify-content: center;
     margin-top: 30px;
   }
-
 
   /* scroll button */
   #scroll-img {
