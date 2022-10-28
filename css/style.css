@@ -1,6 +1,8 @@
 /* global reset */
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 /* color variables */
@@ -24,7 +26,7 @@ body {
   .container {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
     height: 667px;
     width: 375px;
@@ -37,8 +39,9 @@ body {
     justify-content: space-between;
     align-items: center;
     width: 375px;
-    padding-top: 20px;
-    padding-left: 12px;
+    height: 48px;
+    padding-top: 44px;
+    padding-bottom: 20px;
   }
 
   .welcome {
@@ -48,39 +51,33 @@ body {
     line-height: 28px;
     width: 90px;
     height: 28px;
+    padding-left: 12px;
     color: var(--green-cayn);
   }
 
-  /* Hamburger lines */
-  .hamburger {
+  .ham-menu {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 4px;
-    padding-top: 3px;
-    padding-right: 40px;
-  }
-
-  .ham-line {
-    height: 2px;
-    width: 16px;
-    background: black;
+    align-items: flex-start;
+    padding: 8px;
+    padding-right: 24px;
   }
 
   /* intro-section */
-  .hero {
-    background-image: url(images/header-illsutration-mobile.svg);
+  .background {
+    background-image: url(../images/header-illsutration-mobile.svg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-size: 110% 100%;
+    width: 100%;
+    height: auto;
   }
 
   .intro {
-    width: 100%;
-    height: 250px;
+    width: 327px;
+    height: 192px;
     line-height: 130%;
     text-align: center;
-    padding-top: 50px;
+    padding-left: 24px;
+    margin-top: 64px;
   }
 
   .primary-text {
@@ -110,17 +107,19 @@ body {
     line-height: 28px;
     text-align: center;
     height: 164px;
-    padding: 5px 20px 0;
+    width: 327px;
+    padding-left: 24px;
     color: var(--cayn-blue);
+    margin-top: 40px;
   }
 
   /* social media */
 
   .social {
+    margin-top: 60px;
     display: flex;
-    padding-bottom: 40px;
-    justify-content: center;
     flex-direction: row;
+    justify-content: center;
   }
 
   #social-icons {
@@ -129,7 +128,6 @@ body {
     justify-content: space-between;
     gap: 30px;
     padding: 0;
-    margin-bottom: 40px;
     height: 20px;
     width: 170.17px;
   }
@@ -139,13 +137,17 @@ body {
     height: 16px;
   }
 
+  .scroll-down {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+
   /* scroll button */
   #scroll-img {
     width: 40px;
     height: 40px;
-    left: calc(50% - 40px / 2 + 0.5px);
-    bottom: 4px;
-    position: absolute;
+    bottom: 1px;
     border: 1px solid #dfe1e6;
     border-radius: 32px;
   }

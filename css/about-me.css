@@ -1,0 +1,149 @@
+
+/* Mobile */
+@media screen and (max-width: 480px) {
+  .about-me-sec {
+    width: 375px;
+    height: 1725px;
+  }
+
+  .description {
+    height: auto;
+    width: 375px;
+    display: grid;
+    justify-items: center;
+    margin-top: 50px;
+  }
+
+  .me {
+    display: grid;
+    height: 333px;
+    width: 351px;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .me-title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 52px;
+    color: #172b4d;
+    height: 48px;
+    width: 351px;
+  }
+
+  h1 {
+    margin: 0;
+  }
+
+  #me-des {
+    display: flex;
+    align-items: center;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 19px;
+    color: #42526e;
+    line-height: 32px;
+    height: 189px;
+    width: 351px;
+  }
+
+  .btn-resume {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    text-align: center;
+  }
+
+  .btn-resume a button {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.03em;
+    background-color: #36b37f;
+    color: #fff;
+    height: 48px;
+    width: 159px;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    padding-left: 15px;
+  }
+
+  .btn-resume a {
+    text-decoration: none;
+  }
+
+  .background-1 {
+    display: flex;
+    justify-content: flex-end;
+    float: right;
+    position: absolute;
+    width: 100%;
+  }
+
+  .background-2 {
+    position: absolute;
+    float: left;
+    width: 100%;
+    margin-top: 300px;
+  }
+
+  .portfolio {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    width: 327px;
+    height: 1200px;
+  }
+
+  .about-me-cards {
+    width: 327px;
+    height: 352px;
+    background-color: #ebf0ee;
+    border: 1px solid #c1c7d0;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+
+  .about-me-cards img {
+    margin-top: 24px;
+    margin-bottom: 30px;
+  }
+
+  .about-me-cards h1 {
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #344563;
+    text-align: center;
+  }
+
+  .abt-languages {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .abt-languages a button {
+    background-color: #fff;
+    color: #36b37e;
+  }
+
+  .resume-btn a button:hover {
+    background-color: #008552;
+    box-shadow: 0 8px 16px rgba(30, 72, 143, 0.24);
+    border-radius: 4px;
+  }
+
+  ul {
+    list-style: none;
+  }
+}
