@@ -20,7 +20,6 @@
     width: 351px;
     align-items: center;
     text-align: center;
-    margin-top: 50px;
   }
 
   .me-title {
@@ -48,32 +47,23 @@
     width: 351px;
   }
 
-  .btn-resume {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 12px;
-    text-align: center;
-  }
+  .resume-btn {
+	  font-size: 17px;
+	  font-weight: 500;
+	  line-height: 24px;
+	  color: #ffffff;
+	  letter-spacing: 0.03em;
+	  background-color: #36B37F;
+	  border-radius: 4px;
+	  padding: 12px;
 
-  .btn-resume a button {
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.03em;
-    background-color: #36b37f;
-    color: #fff;
-    height: 48px;
-    width: 159px;
-    border-radius: 4px;
-    font-weight: 500;
-    font-size: 17px;
-    line-height: 24px;
-    padding-left: 15px;
-  }
-
-  .btn-resume a {
     text-decoration: none;
+  }
+
+  .resume-btn:hover {
+    background-color: #008552;
+    box-shadow: 0 8px 16px rgba(30, 72, 143, 0.24);
+    border-radius: 4px;
   }
 
   .background-1 {
@@ -137,11 +127,6 @@
     color: #36b37e;
   }
 
-  .resume-btn a button:hover {
-    background-color: #008552;
-    box-shadow: 0 8px 16px rgba(30, 72, 143, 0.24);
-    border-radius: 4px;
-  }
 
   ul {
     list-style: none;
