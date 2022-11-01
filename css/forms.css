@@ -1,22 +1,21 @@
 @media screen and (max-width: 480px) {
-.form-section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 0px;
-  height: auto;
-  margin: 50px 24px;
+  .form-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    height: auto;
+    margin: 50px 24px;
   }
 
   .frm-txt {
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 52px;
-  text-align: center;
-  color: #172B4D;
-  margin-bottom: 58px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    text-align: center;
+    color: #172b4d;
+    margin-bottom: 58px;
   }
 
   form {
@@ -28,45 +27,43 @@
   }
 
   .form-input {
-    
-    background: #FFFFFF;
-    border: 1px solid #D0D9D4;
+    background: #fff;
     border-radius: 4px;
     padding: 16px 15px;
-    border-radius: 4px;
   }
 
   input::placeholder {
-    font-family: 'Inter';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 24px;
-  color: #6B778C;
-  }
-
-  textarea::placeholder{
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
     line-height: 24px;
-    color: #091E42;
+    color: #6b778c;
+  }
+
+  textarea {
+    height: 114px;
+  }
+
+  textarea::placeholder {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #091e42;
   }
 
   form button {
-  padding: 12px;
-  gap: 10px;
-  width: 129px;
-  height: 48px;
-  background: #36B37F;
-  border-radius: 4px;
-  color: #FFFFFF;
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 17px;
-  line-height: 24px;
-  margin: 0 auto;
+    padding: 12px;
+    gap: 10px;
+    width: 129px;
+    height: 48px;
+    background: #36b37f;
+    border-radius: 4px;
+    color: #fff;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    margin: 0 auto;
   }
 }
