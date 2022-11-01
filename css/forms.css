@@ -42,6 +42,7 @@
 
   textarea {
     height: 114px;
+    border: 1px solid #60C095
   }
 
   textarea::placeholder {
@@ -65,5 +66,28 @@
     font-size: 17px;
     line-height: 24px;
     margin: 0 auto;
+  }
+
+  .form-img {
+    float: right;
+    position: absolute;
+    margin-top: 750px;
+    margin-left: 300px;
+  }
+
+  .email-contact {
+    margin-top: 20px;
+    margin-bottom: 150px;
+  }
+
+  .email-contact p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  color: #42526E;
+
   }
 }
