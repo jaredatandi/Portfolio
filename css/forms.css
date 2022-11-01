@@ -68,6 +68,11 @@
     margin: 0 auto;
   }
 
+  form button:hover {
+    background: #008552;
+    border-radius: 4px;
+  }
+
   .form-img {
     float: right;
     position: absolute;
