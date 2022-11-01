@@ -1,8 +1,21 @@
 @media screen and (max-width: 480px) {
+.form-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  height: auto;
+  border: red solid 2px;
+  margin: 50px 24px;
+  }
+
   .frm-txt {
-    height: 363px;
-    width: 327px;
-    display: flex;
-    align-items: center;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  color: #172B4D;
   }
 }
