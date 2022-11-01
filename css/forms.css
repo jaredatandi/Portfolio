@@ -5,7 +5,6 @@
   align-items: center;
   padding: 0px;
   height: auto;
-  border: red solid 2px;
   margin: 50px 24px;
   }
 
@@ -17,5 +16,29 @@
   line-height: 52px;
   text-align: center;
   color: #172B4D;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 24px;
+  }
+
+  .form-input {
+    
+    background: #FFFFFF;
+    border: 1px solid #D0D9D4;
+    border-radius: 4px;
+    padding: 16px 15px;
+  }
+
+  ::placeholder {
+    font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #6B778C;
   }
 }
