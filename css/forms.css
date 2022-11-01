@@ -42,7 +42,7 @@
 
   textarea {
     height: 114px;
-    border: 1px solid #60C095
+    border: 1px solid #60c095;
   }
 
   textarea::placeholder {
@@ -81,13 +81,11 @@
   }
 
   .email-contact p {
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 32px;
-  text-align: center;
-  color: #42526E;
-
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    color: #42526e;
   }
 }
