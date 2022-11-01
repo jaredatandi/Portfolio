@@ -28,7 +28,7 @@
     color: #172b4d;
   }
 
- /* Cards */
+  /* Cards */
   .card {
     display: flex;
     flex-direction: column;

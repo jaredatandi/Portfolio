@@ -48,15 +48,14 @@
   }
 
   .resume-btn {
-	  font-size: 17px;
-	  font-weight: 500;
-	  line-height: 24px;
-	  color: #ffffff;
-	  letter-spacing: 0.03em;
-	  background-color: #36B37F;
-	  border-radius: 4px;
-	  padding: 12px;
-
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #fff;
+    letter-spacing: 0.03em;
+    background-color: #36b37f;
+    border-radius: 4px;
+    padding: 12px;
     text-decoration: none;
   }
 
@@ -126,7 +125,6 @@
     background-color: #fff;
     color: #36b37e;
   }
-
 
   ul {
     list-style: none;
