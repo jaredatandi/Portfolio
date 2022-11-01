@@ -1,0 +1,8 @@
+@media screen and (max-width: 480px) {
+	.frm-txt {
+		height: 363px;
+		width: 327px;
+		display: flex;
+		align-items: center;
+	}
+}
