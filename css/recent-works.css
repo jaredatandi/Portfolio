@@ -4,6 +4,7 @@
     height: 252px;
     border-radius: 8px 8px 0 0;
   }
+
   .card {
     display: flex;
     flex-direction: column;
@@ -14,12 +15,12 @@
     border: 1px solid #d0d9d4;
     margin-top: 50px;
   }
-  
+
   .prj {
-	  display: flex;
-	  flex-direction: row;
-	  flex-wrap: wrap;
-	  justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
   }
 
   .framework {
@@ -87,8 +88,8 @@
   .about-me-img {
     display: none;
   }
-
 }
+
 /* Mobile */
 @media screen and (max-width: 480px) {
   /* scroll button */
