@@ -109,10 +109,10 @@
 
   .line {
     height: 1px;
-    left: 0px;
-    right: 0px;
-    top: 0px;
-    background: #DFE1E6;
+    left: 0;
+    right: 0;
+    top: 0;
+    background: #dfe1e6;
   }
 }
 
@@ -211,12 +211,12 @@
     text-align: center;
     color: #42526e;
   }
-  
+
   .line {
     display: none;
   }
 
-  #less{
+  #less {
     margin-top: 0;
   }
 }
