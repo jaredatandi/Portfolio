@@ -86,8 +86,33 @@
     border-radius: 4px;
   }
 
+  .form-img {
+    display: none;
+  }
+
+  /* .desktop-contact-illustration {
+    background-image: url(/images/contact-form-illustratoin-3-desktop.svg);
+    height: 448px;
+    width: 90%;
+    margin-top: 400px;
+    float: right;
+  }
+  .desktop-contact-illustration img {
+    height: 448px;
+    float: right;
+    padding-top: 200px;
+  } */
+
   .email-contact {
     display: none;
+  }
+
+  .line {
+    height: 1px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    background: #DFE1E6;
   }
 }
 
@@ -185,5 +210,13 @@
     line-height: 32px;
     text-align: center;
     color: #42526e;
+  }
+  
+  .line {
+    display: none;
+  }
+
+  #less{
+    margin-top: 0;
   }
 }
