@@ -12,7 +12,7 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    margin: 0 260px;
+    margin: 0 260px 20px;
   }
 
   .me-title h1 {
@@ -51,9 +51,77 @@
   }
 
   .btn-rsm {
-    margin: 20px;
+    margin: 40px;
   }
 
+  .background-1 {
+    display: flex;
+    justify-content: flex-end;
+    float: right;
+    position: absolute;
+    width: 100%;
+  }
+
+  .background-2 {
+    position: absolute;
+    float: left;
+    width: 100%;
+    margin-top: -180px;
+    padding-left: 100px;
+  }
+  .background-1 img {
+    height: 150px;
+  }
+  .background-2 img {
+    height: 100px;
+  }
+  .portfolio {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 360px;
+    gap: 20px;
+  }
+
+  .about-me-cards {
+    width: 327px;
+    background-color: #ebf0ee;
+    border: 1px solid #c1c7d0;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-me-cards img {
+    margin-top: 24px;
+    margin-bottom: 30px;
+  }
+
+  .about-me-cards h1 {
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #344563;
+    text-align: center;
+  }
+
+  .abt-languages {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .abt-languages a button {
+    background-color: #fff;
+    color: #36b37e;
+  }
+
+  ul {
+    list-style: none;
+  }
 }
 
 /* Mobile */
