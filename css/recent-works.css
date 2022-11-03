@@ -135,7 +135,6 @@
     line-height: 52px;
     color: #172b4d;
   }
-}
 
 .recent-works-heading {
   display: flex;
@@ -145,7 +144,6 @@
   height: 97px;
   width: 327px;
 }
-
 
 /* Cards */
 .card {
