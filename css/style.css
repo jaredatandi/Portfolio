@@ -14,6 +14,7 @@
   --green-cayn: #28352f;
   --Tealish-blue: #505f79;
 }
+
 body {
   margin: 0;
   padding: 0;
@@ -78,9 +79,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 180px 0px;
+    padding: 180px 0;
     gap: 24px;
-
     position: absolute;
     width: auto;
     height: auto;
@@ -100,7 +100,6 @@ body {
     letter-spacing: 0.37px;
   }
 
-
   .support-text {
     font-style: normal;
     font-weight: 400;
@@ -109,8 +108,7 @@ body {
     text-align: center;
     width: 920px;
     height: auto;
-
-    color: #172B4D;
+    color: #172b4d;
   }
 
   .career {
@@ -283,7 +281,6 @@ body {
     width: 170.17px;
   }
 
-  
   .fa {
     width: 16px;
     height: 16px;

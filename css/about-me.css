@@ -16,12 +16,12 @@
   }
 
   .me-title h1 {
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
     line-height: 52px;
-    color: #172B4D;
+    color: #172b4d;
   }
 
   .me-des {
@@ -29,7 +29,7 @@
     font-size: 20px;
     line-height: 32px;
     text-align: center;
-    color: #42526E;
+    color: #42526e;
   }
 
   .resume-btn {
@@ -69,12 +69,15 @@
     margin-top: -180px;
     padding-left: 100px;
   }
+
   .background-1 img {
     height: 150px;
   }
+
   .background-2 img {
     height: 100px;
   }
+
   .portfolio {
     display: flex;
     flex-direction: row;
