@@ -14,6 +14,10 @@
   --green-cayn: #28352f;
   --Tealish-blue: #505f79;
 }
+body {
+  margin: 0;
+  padding: 0;
+}
 
 @media screen and (min-width: 480px) {
   body {
@@ -34,6 +38,8 @@
   .menu {
     display: flex;
     margin-top: 30px;
+    position: fixed;
+    width: 100%;
   }
 
   .menu ul,
