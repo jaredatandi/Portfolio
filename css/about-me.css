@@ -1,3 +1,60 @@
+@media screen and (min-width: 480px) {
+  .about-me-sec {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    height: auto;
+  }
+
+  .me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0 260px;
+  }
+
+  .me-title h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #172B4D;
+  }
+
+  .me-des {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    color: #42526E;
+  }
+
+  .resume-btn {
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #fff;
+    letter-spacing: 0.03em;
+    background-color: #36b37f;
+    border-radius: 4px;
+    padding: 12px;
+    text-decoration: none;
+  }
+
+  .resume-btn:hover {
+    background-color: #008552;
+    box-shadow: 0 8px 16px rgba(30, 72, 143, 0.24);
+    border-radius: 4px;
+  }
+
+  .btn-rsm {
+    margin: 20px;
+  }
+
+}
 
 /* Mobile */
 @media screen and (max-width: 480px) {
@@ -35,7 +92,7 @@
     margin: 0;
   }
 
-  #me-des {
+  .me-des {
     display: flex;
     align-items: center;
     font-weight: 300;
