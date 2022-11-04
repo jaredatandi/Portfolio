@@ -25,7 +25,14 @@
 	</head>
 	<body>
 		<section class="container">
-			<section>
+			<header>
+				<nav class='menu'>
+   				<ul>
+   					 <li><a href='#recent-works'>Portfolio</a></li>
+   					 <li><a href='#About-me'>About</a></li>
+    				<li><a href='#Contact'>Contact</a></li>
+  				</ul>
+				</nav>
 				<!-- navbar -->
 				<nav class="nav-bar">
 					<div>
@@ -36,56 +43,56 @@
 					</div>
 
 				</nav>
-			</section>
+			</header>
 			<!-- intro -->
 			<div class="background">
 				<section class="hero">
 					<header class="intro">
 						<div>
 							<h1 class="primary-text"
-							    id="primary">Hey there. I’m Jared 
+							    class="primary">Hey there. I’m Jared.
 						</div>
 						<div>
-							<h1 class="primary-text" id="career">I’m a software
+							<h1 class="primary-text career">I’m a software
 								developer</h1>
 						</div>
 					</header>
 
 					<!-- Support text -->
-					<header class="support-text">
+					<header class="support">
 						<div>
-							<h1 id="support-text"> I can help you build
+							<h1 class="support-text"> I can help you build
 								a product , feature or website Look
 								through some of my work and experience! If
 								you like what you see and have a project
-								you need coded, 
-								don’t hestiate to contact me.</h1>
+								you need coded,<br> 
+								don’t hesitate to contact me.</h1>
 
 						</div>
 					</header>
 
 					<nav class="social">
-						<ul id="social-icons">
+						<ul class="social-icons">
 
 							<li><a class="fa" href="#" target="_blank"><img src="images/twitter.svg" alt="twitter"/></a></li>
 							<li><a class="fa"  href="#" target="_blank"><img src="images/linkedin-icon.svg" alt="Linkedin"/></a></li>
-							<li><a class="fa"  href="#" target="_blank"><img src="images/medium.svg" alt="medium"/></a></li>
+							<li><a class="fa medium"  href="#" target="_blank"><img src="images/medium.svg" alt="medium"/></a></li>
 							<li><a class="fa"  href="#" target="_blank"><img src="images/github.svg" alt="github"/></a></li>
 							<li><a class="fa"  href="#" target="_blank"><img src="images/angellist.svg" alt="angellist"/></a></li>
 						</ul>
 					</nav>
 					<div class="scroll-down"> 
-						<img id="scroll-img" src="images/Disabled.svg" alt="scroll-down"/>
+						<a href="#less"><img class="scroll-img" src="images/Disabled.svg" alt="scroll-down"/></a>
 					</div>
 				</section>
 			</div>
 		</section>
-		<section class="about-me">
-			<div class="about-me-title">
+		<section class="recent-works" id="recent-works">
+			<div class="recent-works-heading">
 				<div>
-					<h1 class="about-me-text">My Recent Works</h1>
+					<h1 class="recent-works-title">My Recent Works</h1>
 				</div>
-				<div>
+				<div class="rcnt-work-indicator">
 					<img src="images/Indicator.svg" alt="scroll-button"/>	
 				</div>
 			</div>
@@ -93,10 +100,12 @@
 
 				<!---Card 1-->
 				<div class="card">
-					<div class="abt-me-img">
+					<div class="card-img">
 						<img src="images/comp.png" alt=""/>
 					</div>
+					<div class="card-title">
 					<h1>Multi-Post Stories Gain+Glory</h1>
+					</div>
 					<div class="text">
 						<div class="framework">
 							<ul class="languages">
@@ -131,10 +140,12 @@
 
 				<!---Card 2-->
 				<div class="card">
-					<div class="abt-me-img">
+					<div class="card-img">
 						<img src="images/comp.png" alt=""/>
 					</div>
+					<div class="card-title">
 					<h1>Multi-Post Stories Gain+Glory</h1>
+					</div>
 					<div class="text">
 						<div class="framework">
 							<ul class="languages">
@@ -169,10 +180,12 @@
 
 				<!---Card 3-->
 				<div class="card">
-					<div class="abt-me-img">
+					<div class="card-img">
 						<img src="images/comp.png" alt=""/>
 					</div>
-					<h1>Multi-Post Stories Gain+Glory</h1>
+					<div class="card-title">
+						<h1>Multi-Post Stories Gain+Glory</h1>
+					</div>
 					<div class="text">
 						<div class="framework">
 							<ul class="languages">
@@ -205,53 +218,16 @@
 					</div>
 				</div>
 
-
-
-				<!---Card 3-->
-				<div class="card">
-					<div class="abt-me-img">
-						<img src="images/comp.png" alt=""/>
-					</div>
-					<h1>Multi-Post Stories Gain+Glory</h1>
-					<div class="text">
-						<div class="framework">
-							<ul class="languages">
-								<li>
-									<a href="#">
-										<button id="ruby">Ruby on rails</button>
-									</a>
-								</li>
-								<li>
-									<a href="#">
-										<button id="ruby">Javascript</button>
-									</a>
-								</li>
-								<li>
-									<a href="#">
-										<button id="ruby">css</button>
-									</a>
-								</li>
-								<li>
-									<a href="#">
-										<button id="ruby">html</button>
-									</a>
-								</li>
-							</ul>
-
-						</div>
-						<div class="see-prj">
-							<button>See Project</button>
-						</div>
-					</div>
-				</div>
 
 
 				<!---Card 4-->
 				<div class="card">
-					<div class="abt-me-img">
+					<div class="card-img">
 						<img src="images/comp.png" alt=""/>
 					</div>
-					<h1>Multi-Post Stories Gain+Glory</h1>
+					<div class="card-title">
+						<h1>Multi-Post Stories Gain+Glory</h1>
+					</div>
 					<div class="text">
 						<div class="framework">
 							<ul class="languages">
@@ -284,12 +260,55 @@
 					</div>
 				</div>
 
+
 				<!---Card 5-->
 				<div class="card">
-					<div class="abt-me-img">
+					<div class="card-img">
 						<img src="images/comp.png" alt=""/>
 					</div>
-					<h1>Multi-Post Stories Gain+Glory</h1>
+					<div class="card-title">
+						<h1>Multi-Post Stories Gain+Glory</h1>
+					</div>
+					<div class="text">
+						<div class="framework">
+							<ul class="languages">
+								<li>
+									<a href="#">
+										<button id="ruby">Ruby on rails</button>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<button id="ruby">Javascript</button>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<button id="ruby">css</button>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<button id="ruby">html</button>
+									</a>
+								</li>
+							</ul>
+
+						</div>
+						<div class="see-prj">
+							<button>See Project</button>
+						</div>
+					</div>
+				</div>
+
+				<!---Card 6-->
+				<div class="card">
+					<div class="card-img">
+						<img src="images/comp.png" alt=""/>
+					</div>
+					<div class="card-title">
+						<h1>Multi-Post Stories Gain+Glory</h1>
+					</div>
 					<div class="text">
 						<div class="framework">
 							<ul class="languages">
@@ -326,7 +345,7 @@
 		</section>
 
 		<!--About me section-->
-		<section class="about-me-sec">
+		<section class="about-me-sec" id="About-me">
 			<div class="background-1">
 				<img src="images/illustration 1- about me-mobile.svg" alt="background">
 			</div>
@@ -338,12 +357,12 @@
 						<h1>About me</h1>
 					</div>
 					<div class="me-des">
-						<h1 id="me-des">
-							I can help you build a product, <br> feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, 
-							don’t hestiate to contact me.
+						<h1 class="me-des">
+							I can help you build a product, feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, 
+							don’t hesitate to contact me.
 						</h1>
 					</div>
-					<div>
+					<div class="btn-rsm">
 						<a href="#" class="resume-btn"> Get My Resume </a>
 					</div>
 				</div>
@@ -477,25 +496,29 @@
 				</div>
 			</div>
 		</section>
-		<section>
+		<section id="Contact">
 			<div class="form-section">
 				<div> 
 					<h2 class="frm-txt">I'm always interested in hearing about new projects,
 					so if you'd like to chat please get in touch.</h2>
 				</div>
-				<form action="https://formspree.io/f/xwkzwlne" method="POST" >
-					<input class="form-input" type="text" name="name" placeholder="Full Name" maxlength="30" required>
-					<input class="form-input" type="email" name="email" placeholder="Email Address" required>
-					<textarea class="form-input form-input2" name="message" placeholder="Enter text here" maxlength="500" required></textarea>
+				<form class="form-inputs" action="https://formspree.io/f/xwkzwlne" method="POST" >
+					<input class="form-input name" type="text" name="name" placeholder="Full Name" maxlength="30" required>
+					<input class="form-input email" type="email" name="email" placeholder="Email Address" required>
+					<textarea class="form-input form-input2 message" name="message" placeholder="Enter text here" maxlength="500" required></textarea>
 					<button  type="submit">Get in touch</button>
 				</form>
 				<div class="form-img">
 					<img src="images/Frame.svg" alt="Frame"/>
-					
 				</div>
-				<footer class="social">
-					<ul id="social-icons">
-
+				<div class="email-contact">
+					<p>jaredatandi07@gmail.com</p>
+				</div>
+			</div>
+			<hr class="line" >
+		</section>
+				<footer class="social" id="less">
+					<ul class="social-icons">
 						<li><a class="fa" href="#" target="_blank"><img src="images/twitter.svg" alt="twitter"/></a></li>
 						<li><a class="fa"  href="#" target="_blank"><img src="images/linkedin-icon.svg" alt="Linkedin"/></a></li>
 						<li><a class="fa"  href="#" target="_blank"><img src="images/medium.svg" alt="medium"/></a></li>
@@ -503,10 +526,5 @@
 						<li><a class="fa"  href="#" target="_blank"><img src="images/angellist.svg" alt="angellist"/></a></li>
 					</ul>
 				</footer>
-				<div class="email-contact">
-					<p>jaredatandi07@gmail.com</p>
-				</div>
-			</div>
-		</section>
 	</body>
 </html>
