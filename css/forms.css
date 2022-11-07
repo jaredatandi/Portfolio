@@ -6,7 +6,7 @@
     gap: 24px;
     width: 100%;
     height: auto;
-    background-image: url(/images/desktop.png);
+    background-image: url(../images/desktop.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
