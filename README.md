@@ -9,7 +9,7 @@
 
 ## Live Demo (if available)
 
-> Coming soon
+> [Live Demo](https://jaredatandi.github.io/Portfolio/)  
 
 ## Getting Started
 
