@@ -43,6 +43,10 @@ body {
     width: 100%;
   }
 
+  .mobile-menu {
+    display: none;
+  }
+
   .menu ul,
   .menu li {
     margin: 0 auto;
@@ -181,6 +185,11 @@ body {
     font-family: 'Inter', sans-serif;
     margin: 0;
     padding: 0;
+    z-index: 0;
+  }
+
+  .x-icon {
+    display: none;
   }
 
   .menu {
@@ -225,6 +234,15 @@ body {
     align-items: flex-start;
     padding: 8px;
     padding-right: 24px;
+  }
+
+  .pop-up {
+    display: block;
+    z-index: 1;
+  }
+
+  .mobile-menu {
+    display: none;
   }
 
   /* intro-section */
