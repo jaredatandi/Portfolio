@@ -28,9 +28,9 @@
 			<header>
 				<nav class='menu'>
    				<ul>
-   					 <li><a href='#recent-works'>Portfolio</a></li>
-   					 <li><a href='#About-me'>About</a></li>
-    				<li><a href='#Contact'>Contact</a></li>
+   					 <li><a class="menu-item" href='#recent-works'>portfolio</a></li>
+   					 <li><a class="menu-item" href='#about-me'>about</a></li>
+    				<li><a class="menu-item" href='#contact'>contact</a></li>
   				</ul>
 				</nav>
 				<!-- navbar -->
@@ -38,10 +38,18 @@
 					<div>
 						<h1 class="welcome">Welcome</h1>
 					</div>
-					<div class="ham-menu">
-						<img src="images/ham.svg" alt="navigation button"/>
-					</div>
+					<div class="ham-menu pop-up">
+						<img class="show-menu" src="images/ham.svg" alt="navigation button"/>
 
+						<div class='mobile-menu'>
+							<img class="x-icon" src="./images/x-icon.svg" alt="close-icon">
+					    <ul>
+					    	<li><a class="menu-item" href='#recent-works'>portfolio</a></li>
+					    	<li><a class="menu-item" href='#about-me'>about</a></li>
+					    	<li><a class="menu-item" href='#contact'>contact</a></li>
+					    </ul>
+					    </div>
+					</div>
 				</nav>
 			</header>
 			<!-- intro -->
@@ -527,5 +535,7 @@
 						<li><a class="fa"  href="#" target="_blank"><img src="images/angellist.svg" alt="angellist"/></a></li>
 					</ul>
 				</footer>
+
+				<script src="./index.js"></script>
 	</body>
 </html>
