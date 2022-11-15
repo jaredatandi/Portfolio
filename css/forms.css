@@ -109,6 +109,10 @@
     top: 0;
     background: #dfe1e6;
   }
+
+  .no-visible {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 480px) {
@@ -208,6 +212,9 @@
   }
 
   .line {
+    display: none;
+  }
+  .no-visible {
     display: none;
   }
 
