@@ -22,4 +22,3 @@ menuItem.forEach((menuItem) => {
   menuItem.addEventListener('click', toggleMenu);
 });
 
-// write a function
