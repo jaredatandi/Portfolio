@@ -1,24 +1,12 @@
 // main JavaScript
-const menu = document.querySelector('.mobile-menu');
-const menuItem = document.querySelectorAll('.menu-item');
-const menuIcon = document.querySelector('.show-menu');
-const closeIcon = document.querySelector('.x-icon');
-const hamburger = document.querySelector('.ham-menu');
+const toggleButton = document.getElementsByClassName('show-menu')[0];
+const closeButton = document.getElementsByClassName('x-icon')[0];
+const welcomeTitle = document.getElementsByClassName('welcome')[0];
+const navbarlinks = document.getElementsByClassName('navbar-links')[0];
 
-function toggleMenu() {
-  if (menu.classList.contains('mobile-menu')) {
-    menu.classList.remove('mobile-menu');
-    closeIcon.style.display = 'none';
-    menuIcon.style.display = 'block';
-  } else {
-    menu.classList.add('mobile-menu');
-    closeIcon.style.display = 'block';
-    menuIcon.style.display = 'none';
-  }
-}
-hamburger.addEventListener('click', toggleMenu);
-
-menuItem.forEach((menuItem) => {
-  menuItem.addEventListener('click', toggleMenu);
+toggleButton.addEventListener('click', () => {
+  navbarlinks.classList.toggle('active');
+  welcomeTitle.style.display = 'none';
+  closeButton.style.display = 'block';
+  toggleButton.style.display = 'none';
 });
-
