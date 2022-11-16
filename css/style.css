@@ -247,7 +247,7 @@ body {
   height: auto;
   padding-top: 1rem;
   width: 100%;
-  z-index: 1
+  z-index: 1;
 }
 
 /* nav-bar */
@@ -358,5 +358,4 @@ body {
   bottom: 1px;
   border: 1px solid #dfe1e6;
   border-radius: 32px;
-}
 }
