@@ -1,0 +1,132 @@
+/* The main css for the projects page */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.dflex {
+    display: flex;
+}
+
+.font-fam {
+    font-family: 'Inter';
+    font-style: normal;
+}
+
+.project-popup {
+    font-family: 'Inter';
+    height: auto;
+    background-color: #fff;
+    border: 1px solid #DFE1E6;
+    border-radius: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 16px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding: 16px;
+    padding-left: calc(50% - 343px/2);
+    gap: 12px;
+}
+
+.img-placeholder {
+    width: 100%;
+    height: 220px;
+    background-color: #b1b5bc;
+    border-radius: 8px;
+}
+
+.close {
+    color: #fff;
+    position: absolute;
+    border: none;
+    background-color: transparent;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    outline: none;
+    display: block;
+    font-size: 40px;
+    border-radius: 100%;
+    
+}
+
+.project-popup h1 {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    color: #172B4D;
+    text-align: start;
+    padding-right: 68px;
+}
+
+.prj-lang {
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.lang {
+    padding: 8px 12px;
+    background-color: #EBF0EE;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    color: #3A4A42;
+    outline: none;
+    border: none;
+}
+
+.dets {
+    text-align: start;
+}
+
+.dets h2 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #344563;
+}
+
+.pop-buttons {
+    flex-direction: row;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+}
+
+.pop-buttons a {
+    text-decoration: none;
+    background-color: #36B37F;
+    display: block;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding: 0 5px 0 5px;
+    gap: 12px;
+
+    width: 141px;
+    height: 48px;
+    left: 0px;
+    top: 4px;
+
+    border-radius: 4px;
+
+}
+
+.pop-buttons a button {
+    border: none;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    background: transparent;
+}

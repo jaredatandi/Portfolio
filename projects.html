@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Jared Atandi's Projects</title>
 
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800&family=Poppins:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
     <!-- favicon -->
     <link
       rel="apple-touch-icon"
@@ -24,32 +28,42 @@
       sizes="16x16"
       href="favicon/favicon-16x16.png"
     />
+    <link rel="stylesheet" href="css/projects.css" />
   </head>
   <body>
-    <header>
-      <div>image placeholder</div>
-      <h1>Keeping track of hundreds of components</h1>
-    </header>
-    <section>
-      <h2>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the
-        printing and typesetting industry. Lorem Ipsum has been the industry's
-        standard dummy text ever since the 1500s, when an unknown printer took a
-        galley of type and scrambled it 1960s with the relea
-      </h2>
-    </section>
-    <footer>
-      <a href="#">
-        <button>See Live</button>
-        <img src="images/see live icon.svg" alt="see live" />
-      </a>
-      <a href="#">
-        <button>See Live</button>
-        <img src="images/Vector.png" alt="see live" />
-      </a>
-    </footer>
+    <!-- popup -->
+    <div class="project-popup dflex">
+      <header>
+        <button class="close">&times;</button>
+        <div class="img-placeholder"></div>
+        <h1 class="font-fam">Keeping track of hundreds of components</h1>
+        <div class="prj-lang dflex font-fam">
+          <button class="lang">Ruby on rails</button>
+          <button class="lang">css</button>
+          <button class="lang">JavaScript</button>
+        </div>
+      </header>
+      <section class="dets">
+        <h2 class="font-fam">
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took a galley of type and
+          scrambled it 1960s with the releaLorem Ipsum is simply dummy text of
+          the printing and typesetting industry. Lorem Ipsum has been the
+          industry's standard dummy text ever since the 1500s, when an unknown
+          printer took a galley of type and scrambled it 1960s with the relea
+        </h2>
+      </section>
+      <footer class="pop-buttons dflex">
+        <a href="#" class="green-back font-fam btn-container">
+          <button class="btn">See Live</button>
+          <img src="images/see live icon.svg" alt="see live" />
+        </a>
+        <a href="#" class="green-back font-fam">
+          <button class="btn">See source</button>
+          <img src="images/Vector.png" alt="see live" />
+        </a>
+      </footer>
+    </div>
   </body>
 </html>
