@@ -3,7 +3,7 @@ const toggleButton = document.getElementsByClassName('show-menu')[0];
 const closeButton = document.getElementsByClassName('x-icon')[0];
 const welcomeTitle = document.getElementsByClassName('welcome')[0];
 const navbarlinks = document.getElementsByClassName('navbar-links')[0];
-const a = document.getElementsByClassName('navbar-links');
+const navElements = document.getElementsByClassName('navbar-links');
 
 toggleButton.addEventListener('click', () => {
   navbarlinks.classList.toggle('active');
@@ -19,7 +19,7 @@ closeButton.addEventListener('click', () => {
   toggleButton.style.display = 'block';
 });
 
-Array.from(a).forEach((element) => {
+Array.from(navElements).forEach((element) => {
   element.addEventListener('click', () => {
     navbarlinks.classList.toggle('active');
     welcomeTitle.style.display = 'block';
