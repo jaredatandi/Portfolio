@@ -10,3 +10,10 @@ toggleButton.addEventListener('click', () => {
   closeButton.style.display = 'block';
   toggleButton.style.display = 'none';
 });
+
+closeButton.addEventListener('click', () => {
+  navbarlinks.classList.toggle('active');
+  welcomeTitle.style.display = 'block';
+  closeButton.style.display = 'none';
+  toggleButton.style.display = 'block';
+});
