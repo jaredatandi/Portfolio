@@ -29,7 +29,7 @@ body {
   }
 
   .welcome {
-    display: none;
+    display: none !important;
   }
 
   .ham-menu {
@@ -189,7 +189,7 @@ body {
     font-family: 'Inter', sans-serif;
     margin: 0;
     padding: 0;
-    z-index: 0;
+    z-index: 1;
   }
 
   .x-icon {
@@ -219,6 +219,7 @@ body {
     height: 24px;
     font-weight: 600;
     font-size: 32px;
+    margin: 2rem;
   }
 
   .navbar-links {
@@ -229,6 +230,9 @@ body {
     display: flex;
     flex-direction: column;
     height: 100vh;
+    position: relative;
+    z-index: 2;
+    overflow-y: auto;
   }
 
   /* container */
@@ -237,8 +241,9 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    height: 667px;
+    height: auto;
     width: 100%;
+    z-index: 1;
   }
 
   /* nav-bar */
