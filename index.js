@@ -25,5 +25,5 @@ Array.from(navElements).forEach((element) => {
     welcomeTitle.style.display = 'block';
     closeButton.style.display = 'none';
     toggleButton.style.display = 'block';
-  })
+  });
 });
