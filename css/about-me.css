@@ -59,12 +59,10 @@
     display: flex;
     justify-content: flex-end;
     float: right;
-    position: absolute;
     width: 100%;
   }
 
   .background-2 {
-    position: absolute;
     float: left;
     width: 100%;
     margin-top: -180px;
