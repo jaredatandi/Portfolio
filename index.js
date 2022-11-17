@@ -33,7 +33,7 @@ Array.from(navElements).forEach((element) => {
 // Recent works
 
 const projectData = {
-  sourcImg: 'imagPlaceholder.png',
+  sourceImg: 'imagPlaceholder.png',
   frameworks: ['Ruby', 'CSS', 'JavaScript'],
   description: 'Keeping track of hundreds of components',
   details:
