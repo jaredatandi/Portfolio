@@ -33,10 +33,7 @@ Array.from(navElements).forEach((element) => {
 // Recent works
 const seeProject = document.getElementsByClassName('see-prj');
 const popup = document.getElementsByClassName('project-popup')[0];
-
-function displayPopup() {
-  popup.style.display = 'flex';
-  popup.innerHTML = `
+popup.innerHTML = `
       <header>
         <button class="close">&times;</button>
         <div class="img-placeholder"></div>
@@ -69,6 +66,9 @@ function displayPopup() {
         </a>
       </footer>
   `;
+
+function displayPopup() {
+  popup.style.display = 'flex';
 }
 
 Array.from(seeProject).forEach((element) => {
@@ -76,8 +76,6 @@ Array.from(seeProject).forEach((element) => {
 });
 
 const closeIcon = document.querySelector('.close');
-
-console.log(closeIcon);
 
 function closePoup() {
   popup.style.display = 'none';
