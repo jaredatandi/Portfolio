@@ -31,36 +31,41 @@ Array.from(navElements).forEach((element) => {
 });
 
 // Recent works
+
+const projectData = {
+  sourcImg: 'imagPlaceholder.png',
+  frameworks: ['Ruby', 'CSS', 'JavaScript'],
+  description: 'Keeping track of hundreds of components',
+  details:
+    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+  seeSource: '#',
+  seeLive: '#',
+};
+
 const seeProject = document.getElementsByClassName('see-prj');
 const popup = document.getElementsByClassName('project-popup')[0];
 popup.innerHTML = `
       <header>
         <button class="close">&times;</button>
         <div class="img-placeholder"></div>
-        <h1 class="font-fam">Keeping track of hundreds of components</h1>
+        <h1 class="font-fam"> ${projectData.description}</h1>
         <div class="prj-lang dflex font-fam">
-          <button class="lang">Ruby on rails</button>
-          <button class="lang">css</button>
-          <button class="lang">JavaScript</button>
+          <button class="lang">${projectData.frameworks[0]}</button>
+          <button class="lang">${projectData.frameworks[1]}</button>
+          <button class="lang">${projectData.frameworks[2]}</button>
         </div>
       </header>
       <section class="dets">
         <h2 class="font-fam">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it 1960s with the releaLorem Ipsum is simply dummy text of
-          the printing and typesetting industry. Lorem Ipsum has been the
-          industry's standard dummy text ever since the 1500s, when an unknown
-          printer took a galley of type and scrambled it 1960s with the relea
+        ${projectData.details}
         </h2>
       </section>
       <footer class="pop-buttons dflex">
-        <a href="#" class="green-back font-fam btn-container">
+        <a href="${projectData.seeSource}"class="green-back font-fam btn-container">
           <button class="btn">See Live</button>
-          <img src="images/see live icon.svg" alt="see live" />
+          <img src="images/see live icon.svg" alt="see source" />
         </a>
-        <a href="#" class="green-back font-fam">
+        <a href="${projectData.seeSource}"" class="green-back font-fam">
           <button class="btn">See source</button>
           <img src="images/Vector.png" alt="see live" />
         </a>
