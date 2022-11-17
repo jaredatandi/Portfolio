@@ -91,3 +91,16 @@ function closePoup() {
 }
 
 closeIcon.addEventListener('click', closePoup);
+
+const form = document.querySelector('.form-inputs');
+const email = document.getElementsByClassName('email')[0];
+const error = document.querySelector('.error');
+form.addEventListener('submit', (e) => {
+  const emailValue = email.value;
+  for (let i = 0; i < emailValue.length; i += 1) {
+    if (emailValue[i] !== emailValue[i].toLowerCase()) {
+      e.preventDefault();
+      error.innerText = 'Please enter email in lowercase!!!';
+    }
+  }
+});
