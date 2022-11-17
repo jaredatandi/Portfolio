@@ -38,7 +38,7 @@ function displayPopup() {
   popup.style.display = 'flex';
   popup.innerHTML = `
       <header>
-        <button class="close" style="white-space:pre-wrap; *white-space:initial;">&times;</button>
+        <button class="close">&times;</button>
         <div class="img-placeholder"></div>
         <h1 class="font-fam">Keeping track of hundreds of components</h1>
         <div class="prj-lang dflex font-fam">
@@ -71,14 +71,16 @@ function displayPopup() {
   `;
 }
 
-const close = document.getElementsByClassName('close')[0];
-
 Array.from(seeProject).forEach((element) => {
   element.addEventListener('click', displayPopup);
 });
+
+const closeIcon = document.querySelector('.close');
+
+console.log(closeIcon);
 
 function closePoup() {
   popup.style.display = 'none';
 }
 
-close.addEventListener('click', closePoup);
+closeIcon.addEventListener('click', closePoup);
