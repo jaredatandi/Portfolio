@@ -21,12 +21,19 @@ body {
     border: 1px solid #DFE1E6;
     border-radius: 16px;
     flex-direction: column;
+    position: absolute;
     align-items: flex-start;
     margin: 16px;
     margin-top: 20px;
     margin-bottom: 50px;
     padding: 16px;
     gap: 12px;
+    z-index: 10;
+    transition: 0.5s ease-in-out;
+}
+
+.project-popup.active {
+    transform: translate(-50%, -50%) scale(1);
 }
 
 .img-placeholder {
@@ -133,4 +140,157 @@ body {
 
 .pop-buttons a button:hover {
     background-color: transparent !important;
+}
+
+@media screen and (min-width: 480px) {
+    .project-popup {
+        font-family: 'Inter';
+        height: auto;
+        background-color: #fff;
+        border: 1px solid #DFE1E6;
+        border-radius: 16px;
+        flex-direction: column;
+        top: 50%;
+        left: 50%;
+        position: fixed;
+        align-items: flex-start;
+        /* margin: 16px;
+        margin-top: 20px;
+        margin-bottom: 50px;
+        margin-left: 20%; */
+        width: 70%;
+        /* padding: 16px;
+        gap: 12px; */
+        z-index: 10;
+        transform: translate(-50%, -50%);
+        transition: 0.5s ease-in-out;
+    }
+
+    .project-popup.active {
+        transform: translate(-50%, -50%) scale(1);
+    }
+
+    .img-placeholder {
+        width: 100%;
+        height: 220px;
+        background-color: #b1b5bc;
+        border-radius: 8px;
+    }
+
+    .overlay {
+        background-color: #979493;
+        mix-blend-mode: multiply;
+        pointer-events: none;
+        opacity: 0;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+
+    .overlay.active {
+        opacity: 1;
+        pointer-events: all;
+    }
+
+    .close {
+        color: #fff;
+        position: absolute;
+        border: none;
+        background-color: transparent;
+        width: 40px;
+        height: 40px;
+        cursor: pointer;
+        outline: none;
+        display: block;
+        font-size: 40px;
+        border-radius: 100%;
+
+    }
+
+    .project-popup h1 {
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 44px;
+        color: #172B4D;
+        text-align: start;
+        padding-right: 68px;
+    }
+
+    .prj-lang {
+        flex-direction: row;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .lang {
+        padding: 8px 12px;
+        background-color: #EBF0EE;
+        border-radius: 4px;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 16px;
+        letter-spacing: 0.03em;
+        color: #3A4A42;
+        outline: none;
+        border: none;
+    }
+
+    .dets {
+        text-align: start;
+    }
+
+    .dets h2 {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #344563;
+    }
+
+    .pop-buttons {
+        flex-direction: row;
+        border-radius: 4px;
+        margin-bottom: 20px;
+        align-items: center;
+        width: 100%;
+        gap: 20px;
+    }
+
+    .pop-buttons a {
+        text-decoration: none;
+        background-color: #36B37F;
+        display: block;
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        padding: 0 5px 0 5px;
+        gap: 12px;
+
+        width: 141px;
+        height: 48px;
+        left: 0px;
+        top: 4px;
+
+        border-radius: 4px;
+
+    }
+
+    .pop-buttons a button {
+        all: initial;
+        border: none;
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 24px;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #FFFFFF;
+        background: transparent;
+    }
+
+    .pop-buttons a button:hover {
+        background-color: transparent !important;
+    }
+
 }
