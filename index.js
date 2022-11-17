@@ -67,8 +67,11 @@ popup.innerHTML = `
       </footer>
   `;
 
+const overlay = document.querySelector('.overlay');
+
 function displayPopup() {
   popup.style.display = 'flex';
+  overlay.classList.toggle('active');
 }
 
 Array.from(seeProject).forEach((element) => {
@@ -79,6 +82,7 @@ const closeIcon = document.querySelector('.close');
 
 function closePoup() {
   popup.style.display = 'none';
+  overlay.classList.toggle('active');
 }
 
 closeIcon.addEventListener('click', closePoup);
