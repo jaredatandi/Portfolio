@@ -111,6 +111,13 @@
   }
 }
 
+.error {
+  color: #c92c2c;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 8px;
+}
+
 @media screen and (max-width: 480px) {
   .form-section {
     display: flex;
@@ -213,5 +220,13 @@
 
   #less {
     margin-top: 0;
+  }
+
+  .error {
+    color: #c92c2c;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 8px;
+    animation: 2s ease-in-out;
   }
 }

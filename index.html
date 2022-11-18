@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
-    <title>Jared Atandi</title>
+    <title>Jared Atandi Portfolio</title>
 
     <!-- favicon -->
     <link
@@ -23,7 +23,6 @@
       sizes="16x16"
       href="favicon/favicon-16x16.png"
     />
-    <link rel="manifest" href="/site.webmanifest" />
 
     <!-- fa fa icon -->
     <link
@@ -57,6 +56,7 @@
       type="text/css"
       media="screen"
     />
+    <link rel="stylesheet" href="css/projects.css" />
   </head>
   <body>
     <section class="container">
@@ -159,7 +159,7 @@
         <!---Card 1-->
         <div class="card">
           <div class="card-img">
-            <img src="images/comp.png" alt="" />
+            <img src="images/comp.png" alt="project" />
           </div>
           <div class="card-title">
             <h1>Multi-Post Stories Gain+Glory</h1>
@@ -391,6 +391,9 @@
         </div>
       </div>
     </section>
+    <!-- Popup sectionk -->
+    <section class="project-popup dflex" style="display: none"></section>
+    <div class="overlay"></div>
 
     <!--About me section-->
     <section class="about-me-sec" id="About">
@@ -576,6 +579,7 @@
             required
           ></textarea>
           <button type="submit">Get in touch</button>
+          <div class="error"></div>
         </form>
         <div class="form-img">
           <img src="images/Frame.svg" alt="Frame" />
@@ -619,3 +623,27 @@
     <script src="./index.js"></script>
   </body>
 </html>
+
+<div class="content">
+  <div>
+    <h1 class="font-fam">${projectData.description}</h1>
+  </div>
+
+  <div class="desktoponly dflex">
+    <a
+      href="${projectData.seeSource}"
+      class="green-back font-fam btn-container"
+    >
+      <button class="btn">
+        See Live
+        <img src="images/see live icon.svg" alt="see source" />
+      </button>
+    </a>
+    <a href="${projectData.seeSource}" class="green-back font-fam">
+      <button class="btn">
+        See source>
+        <img src="images/Vector.png" alt="see live" />
+      </button>
+    </a>
+  </div>
+</div>
