@@ -88,11 +88,11 @@ popup.innerHTML = `
         </section>
         <footer class="pop-buttons dflex">
           <a href="${projectData.seeSource}"class="green-back font-fam btn-container">
-            <button class="btn">See Live</button>
+            <button class="btn dflex">See Live</button>
             <img src="images/see live icon.svg" alt="see source" />
           </a>
           <a href="${projectData.seeSource}"" class="green-back font-fam">
-            <button class="btn">See source</button>
+            <button class="btn dflex">See source</button>
             <img src="images/Vector.png" alt="see live" />
           </a>
         </footer>
