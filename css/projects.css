@@ -20,13 +20,12 @@ body {
 
 .project-popup {
   font-family: 'Inter', sans-serif;
-  height: 100vh;
+  height: 100%;
   width: 90%;
   padding: 16px;
   top: 50%;
   left: 50%;
   position: fixed;
-  margin-bottom: 40px;
   align-items: flex-start;
   flex-direction: column;
   gap: 12px;
@@ -61,18 +60,14 @@ body {
 }
 
 .close {
-  color: #fff;
   position: absolute;
   float: right;
-  border: none;
   background-color: transparent;
   width: 40px;
   height: 40px;
   cursor: pointer;
   outline: none;
   display: block;
-  font-size: 40px;
-  margin-top: 25px;
   margin-left: 80%;
   border-radius: 100%;
 }
@@ -95,7 +90,6 @@ body {
 .img-placeholder img {
   width: 100%;
   border-radius: 8px;
-  margin-top: 20px;
 }
 
 .prj-lang {
@@ -126,12 +120,12 @@ body {
   font-size: 16px;
   line-height: 24px;
   color: #344563;
+  padding: 0.5rem;
 }
 
 .pop-buttons {
   flex-direction: row;
   border-radius: 4px;
-  margin-bottom: 20px;
   align-items: center;
   width: 100%;
   gap: 20px;
@@ -151,22 +145,17 @@ body {
   left: 0;
   top: 4px;
   border-radius: 4px;
-  margin-top: 10px;
-  margin-bottom: 50px;
 }
 
 .pop-buttons a button {
+  font-family: 'Inter', sans-serif !important;
   all: initial;
   border: none;
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
   text-align: center;
-  letter-spacing: 0.03em;
   color: #fff;
-  background: transparent;
-
-  /* color: #000; */
 }
 
 .pop-buttons a button:hover {
@@ -179,7 +168,7 @@ body {
   }
 
   .project-popup {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter', sans-serif !important;
     width: 65%;
     background-color: #fff;
     border: 1px solid #dfe1e6;
@@ -291,6 +280,7 @@ body {
 
   .desktoponly {
     text-decoration: none;
+    font-family: 'Inter', sans-serif !important;
     display: flex;
     text-align: center;
     justify-content: center;
